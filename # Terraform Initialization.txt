@@ -1,0 +1,27 @@
+# Terraform Initialization
+> terraform init
+Terraform has been successfully initialized!
+
+# Preview Plan
+> terraform plan
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+# Apply Configuration
+> terraform apply
+Apply complete! Resources: 1 added.
+
+# Verify File
+> notepad hello.txt
+(Verified file content: "Hello Sri! This file is created using Terraform!")
+
+# Check Terraform State
+> terraform state list
+(local_file.hello_file listed)
+
+# Destroy Infrastructure
+> terraform destroy
+Destroy complete! Resources: 1 destroyed.
+
+# Final State Check
+> terraform state list
+No state file was found!
